@@ -5,7 +5,7 @@ Pi-Hole responds on port 80 and 443 (with self signed cert). Unbound mapped to p
 ## Configuration
 
 1. Edit the timezone
-2. Edit the volumes section to fit your paths
+2. Edit the volumes section to fit your paths (for both Pi-hole and Unbound)
 3. Set environment variables
 4. Deploy
 
