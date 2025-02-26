@@ -1,10 +1,13 @@
 # Docker compose file for running [Pi-hole6](https://pi-hole.net/) and [unbound](https://www.nlnetlabs.nl/projects/unbound/about/) in a single container
 
+Pi-Hole responds on port 80 and 443 (with self signed cert). Unbound mapped to port 5353.
+
 ## Configuration
 
 1. Edit the timezone
 2. Edit the volumes section to fit your paths
 3. Set environment variables
+4. Deploy
 
 ### Environment variables
 
