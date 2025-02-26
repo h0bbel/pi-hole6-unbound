@@ -13,6 +13,6 @@ Pi-Hole responds on port 80 and 443 (with self signed cert). Unbound mapped to p
 
 Environment variable | Description
 ---------------------|----------|
-$API_PASSWORD | Admin/API password for Pi-Hole (can be hashed or clear text
+$API_PASSWORD | Admin/API password for Pi-Hole
 $HOSTNAME | Hostname value used by Pi-Hole
-$TX |[ timezone]
+$TZ |[ timezone]
