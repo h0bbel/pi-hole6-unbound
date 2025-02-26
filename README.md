@@ -1,6 +1,10 @@
-# Docker compose file for running pi-hole6 and unbound in a single container
+# Docker compose file for running [Pi-hole6](https://pi-hole.net/) and [unbound](https://www.nlnetlabs.nl/projects/unbound/about/) in a single container
 
 ## Configuration
+
+1. Edit the timezone
+2. Edit the volumes section to fit your paths
+3. Set environment variables
 
 ### Environment variables
 
